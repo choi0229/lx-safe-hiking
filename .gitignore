@@ -1,0 +1,50 @@
+HELP.md
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+*node_modules/*
+
+### Secrets ###
+.env
+.env.*
+*.pem
+*.key
+FIREBASE_SERVICE_ACCOUNT*
+firebase-service-account*.json
+
+### Build output / OS ###
+target/
+dist/
+.DS_Store
+uploads/
+__pycache__/
+venv/
+myenv/
+
+### Firebase / Android ###
+google-services.json
